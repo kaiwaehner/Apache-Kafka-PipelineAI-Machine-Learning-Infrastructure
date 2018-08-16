@@ -19,8 +19,6 @@ conda create -n PipelineAI
 conda create -n PipelineAI
 conda install -n PipelineAI pip
 which pip => Shows: /Users/kai.waehner/anaconda2/envs/PipelineAI/bin/pip
-pip install cli-pipeline==1.5.206 --default-timeout=120 --ignore-installed --no-cache --upgrade
+pip install cli-pipeline==1.5.207 --default-timeout=120 --ignore-installed --no-cache --upgrade
 
-=> This successfully installs cli-pipeline. But if I execute "pipeline" or "pipeline version", it throws the following error:
-
-https://github.com/PipelineAI/pipeline/issues/277
+=> This successfully installs cli-pipeline.
